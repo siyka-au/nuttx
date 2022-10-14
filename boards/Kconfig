@@ -12,6 +12,14 @@ choice
 		be available for selection.  Use ARCH_BOARD_CUSTOM to create a new
 		board configuration.
 
+config ARCH_BOARD_ARDUINO_M0
+	bool "Adafruit M0"
+	depends on ARCH_CHIP_SAMD21G18A
+	select ARCH_HAVE_LEDS
+	---help---
+		This options selects the Adafruit Feather M0 board featuring the Atmel
+		ATSAMD21 MCU.
+
 config ARCH_BOARD_AMBER
 	bool "Amber Web Server"
 	depends on ARCH_CHIP_ATMEGA128
