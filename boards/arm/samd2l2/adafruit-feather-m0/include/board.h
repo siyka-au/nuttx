@@ -18,8 +18,8 @@
  *
  ****************************************************************************/
 
-#ifndef __BOARDS_ARM_SAMD2L2_ARDUINO_M0_INCLUDE_BOARD_H
-#define __BOARDS_ARM_SAMD2L2_ARDUINO_M0_INCLUDE_BOARD_H
+#ifndef __BOARDS_ARM_SAMD2L2_ADAFRUIT_FEATHER_M0_INCLUDE_BOARD_H
+#define __BOARDS_ARM_SAMD2L2_ADAFRUIT_FEATHER_M0_INCLUDE_BOARD_H
 
 /****************************************************************************
  * Included Files
@@ -532,4 +532,4 @@
 
 #define NUM_BUTTONS                  0
 
-#endif /* __BOARDS_ARM_SAMD2L2_ARDUINO_M0_INCLUDE_BOARD_H */
+#endif /* __BOARDS_ARM_SAMD2L2_ADAFRUIT_FEATHER_M0_INCLUDE_BOARD_H */
